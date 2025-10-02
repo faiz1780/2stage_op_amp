@@ -24,14 +24,14 @@ Two-stage op-amps are widely used in analog and mixed-signal circuits because th
 ---
 
 ## 🔹 Repository Contents
-- `erroramp_ldo.asc` → Two-stage op-amp schematic (LTspice)  
+- `miller_2stage.asc` → Two-stage op-amp schematic (LTspice)  
 - `.gitignore` → Ignores LTspice simulation files (`.raw`, `.log`, `.bak`, `.tmp`)  
 - `README.md` → Project documentation  
 
 ---
 
 ## 🔹 How to Use
-1. Open the `.asc` schematic in **LTspice**  
+1. Open the `.asc` and include the given tsmc180nm text file in **LTspice**  
 2. Run **AC Analysis** to verify gain and UGB  
 3. Adjust transistor sizing, bias current, or compensation capacitor to explore performance trade-offs  
 
